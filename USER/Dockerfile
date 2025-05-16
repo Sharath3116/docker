@@ -1,5 +1,5 @@
 FROM almalinux:8
-ADDUSER SHARATH
+RUN adduser SHARATH
 USER SHARATH
 CMD ["sleep", "100"]
 
