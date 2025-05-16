@@ -1,0 +1,5 @@
+FROM almalinux:8
+ADDUSER SHARATH
+USER SHARATH
+CMD ["sleep", "100"]
+
